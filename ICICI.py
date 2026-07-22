@@ -14,9 +14,7 @@ from selenium.common.exceptions import (
 
 # --- Config (move real values into a .env, don't commit them) ---
 URL = (
-    "https://infinity.icicibank.com/corp/AuthenticationController"
-    "?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&__EVENT_ID__=LOAD"
-    "&__CALL_MODE__=10&LOGIN_FLAG=1&BANK_ID=ICI"
+    "https://myaadhaar.uidai.gov.in/verify-email-mobile/en"
 )
 ACCOUNT_NO = os.getenv("ICICI_ACCOUNT_NO", "058501516873")
 MOBILE_NO = os.getenv("ICICI_MOBILE_NO", "8097181878")
